@@ -21,7 +21,8 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video 
+{
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,15 +32,18 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section 
+{
   display: block;
 }
 
-ol, ul {
+ol, ul 
+{
   list-style: none;
 }
 
-table {
+table 
+{
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -48,7 +52,8 @@ table {
 Theme Styles
 *******************************************************************************/
 
-body {
+body 
+{
   box-sizing: border-box;
   color:#373737;
   background: #212121;
@@ -58,7 +63,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
+{
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
@@ -66,42 +72,51 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px;
 }
 
-h1 {
+h1 
+{
   font-size: 36px;
   font-weight: 700;
 }
 
-h2 {
+h2 
+{
   padding-bottom: 10px;
   font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
-h3 {
+h3 
+{
   font-size: 24px;
 }
 
-h4 {
+h4 
+{
   font-size: 21px;
 }
 
-h5 {
+h5 
+{
   font-size: 18px;
 }
 
-h6 {
+h6 
+{
   font-size: 16px;
 }
 
-p {
+p 
+{
   margin: 10px 0 15px 0;
 }
 
-footer p {
+footer p 
+{
   color: #f2f2f2;
 }
 
-a {
+a 
+{
   text-decoration: none;
   color: #007edf;
   text-shadow: none;
@@ -118,29 +133,35 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-a:hover, a:focus {text-decoration: underline;}
+a:hover, a:focus 
+{
+  text-decoration: underline;
+}
 
-footer a {
+footer a 
+{
   color: #F2F2F2;
   text-decoration: underline;
 }
 
-em {
+em 
+{
   font-style: italic;
 }
 
-strong {
+strong 
+{
   font-weight: bold;
 }
 
-img {
+img 
+{
   position: relative;
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
-
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
@@ -148,7 +169,8 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
-p img {
+p img 
+{
   display: inline;
   margin: 0;
   padding: 0;
@@ -157,38 +179,41 @@ p img {
   border: none;
 }
 
-pre, code {
+pre, code 
+{
   width: 100%;
   color: #222;
   background-color: #fff;
-
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
-
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
 }
 
-pre {
+pre 
+{
   width: 100%;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
 }
 
-code {
+code 
+{
   padding: 3px;
   margin: 0 3px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
-pre code {
+pre code 
+{
   display: block;
   box-shadow: none;
 }
 
-blockquote {
+blockquote 
+{
   color: #666;
   margin-bottom: 20px;
   padding: 0 0 0 20px;
@@ -196,62 +221,74 @@ blockquote {
 }
 
 
-ul, ol, dl {
+ul, ol, dl 
+{
   margin-bottom: 15px
 }
 
-ul {
+ul 
+{
   list-style-position: inside;
   list-style: disc;
   padding-left: 20px;
 }
 
-ol {
+ol 
+{
   list-style-position: inside;
   list-style: decimal;
   padding-left: 20px;
 }
 
-dl dt {
+dl dt 
+{
   font-weight: bold;
 }
 
-dl dd {
+dl dd 
+{
   padding-left: 20px;
   font-style: italic;
 }
 
-dl p {
+dl p 
+{
   padding-left: 20px;
   font-style: italic;
 }
 
-hr {
+hr 
+{
   height: 1px;
   margin-bottom: 5px;
   border: none;
   background: url('../images/bg_hr.png') repeat-x center;
 }
 
-table {
-  border: 1px solid #373737;
+table 
+{
+  border: 1px;
+  border-collapse:collapse;
   margin-bottom: 20px;
-  text-align: left;
- }
+  text-align: left; 
+  /*border-right:1px solid #000000;*/
+}
 
-th {
+th 
+{
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
- }
+}
 
-td {
+td 
+{
   padding: 10px;
-  border: 1px solid #373737;
- }
+}
 
-form {
+form 
+{
   background: #f2f2f2;
   padding: 20px;
 }
@@ -260,18 +297,21 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
-.outer {
+.outer 
+{
   width: 100%;
 }
 
-.inner {
+.inner 
+{
   position: relative;
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
 }
 
-#forkme_banner {
+#forkme_banner 
+{
   display: block;
   position: absolute;
   top:0;
@@ -286,7 +326,8 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#header_wrap {
+#header_wrap 
+{
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
@@ -295,11 +336,13 @@ Full-Width Styles
   background: linear-gradient(top, #373737, #212121);
 }
 
-#header_wrap .inner {
+#header_wrap .inner 
+{
   padding: 50px 10px 30px 10px;
 }
 
-#project_title {
+#project_title 
+{
   margin: 0;
   color: #fff;
   font-size: 42px;
@@ -307,7 +350,8 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#project_tagline {
+#project_tagline 
+{
   color: #fff;
   font-size: 24px;
   font-weight: 300;
@@ -315,24 +359,28 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#photo {
+#photo 
+{
   display: block;
   float: right;
   width: 120px;
   padding: 10px 10px 10px 10px;
 }
 
-#main_content_wrap {
+#main_content_wrap 
+{
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
-#main_content {
+#main_content 
+{
   padding-top: 40px;
 }
 
-#footer_wrap {
+#footer_wrap 
+{
   background: #212121;
 }
 
@@ -342,45 +390,56 @@ Full-Width Styles
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 480px) {
-  body {
+@media screen and (max-width: 480px) 
+{
+  body 
+  {
     font-size:14px;
   }
 
-  .inner {
+  .inner 
+  {
     min-width: 320px;
     max-width: 480px;
   }
 
-  #project_title {
-  font-size: 32px;
+  #project_title 
+  {
+    font-size: 32px;
   }
 
-  h1 {
+  h1 
+  {
     font-size: 28px;
   }
 
-  h2 {
+  h2 
+  {
     font-size: 24px;
   }
 
-  h3 {
+  h3 
+  {
     font-size: 21px;
   }
 
-  h4 {
+  h4 
+  {
     font-size: 18px;
   }
 
-  h5 {
+  h5 
+  {
     font-size: 14px;
   }
 
-  h6 {
+  h6 
+  {
     font-size: 12px;
   }
 
-  code, pre {
+  code, pre 
+  {
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
